@@ -7,6 +7,7 @@
 //
 
 @import Foundation;
+@import UIKit;
 
 @interface SDCAlertAnimationController : NSObject <UIViewControllerAnimatedTransitioning>
 @property (nonatomic, getter=isPresentation) BOOL presentation;
